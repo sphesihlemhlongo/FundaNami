@@ -17,7 +17,7 @@ const services = [
   {
     id: 3,
     title: "Coding 101",
-    description: "Get your hands dirty with HTML, CSS, and JavaScript—taught by peers who’ve been there.",
+    description: "Get your hands dirty with HTML, CSS, and JavaScript, taught by peers who’ve been there.",
     price: "R180/session",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
   },
