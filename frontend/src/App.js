@@ -1,20 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import Home from './pages/Home';
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    fetch('http://localhost:5000/')
-      .then(response => response.text())
-      .then(data => setMessage(data));
-  }, []);
-
-  return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>FundaNami</h1>
-      <p>{message}</p>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
