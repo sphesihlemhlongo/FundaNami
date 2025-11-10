@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import './Home.css';
 
+
 function Home() {
   return (
     <>
